@@ -3,14 +3,14 @@
 /**
  * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
+	int a;
+	long int b;
+	long long int c;
+	char d;
 	float f;
 
 	printf("Size of a char: %d bytes(s)\n", sizeof(char));
